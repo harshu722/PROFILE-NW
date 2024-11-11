@@ -1141,3 +1141,41 @@ footer {
        transform: translateY(0);
    }
 }
+/* Make GitHub Projects Section text more visible */
+
+/* Style for the project card to have a high-contrast background */
+.project-card {
+    background-color: rgba(255, 255, 255, 0.1); /* Light overlay for contrast */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for definition */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Project title with high contrast */
+.project-content h3 {
+    color: #ffffff; /* White color for the title */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Project description text with light gray color */
+.project-content p {
+    color: #e0e0e0; /* Light gray for readability */
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Link styling for project links */
+.project-content a {
+    color: #ff414d; /* Bright color for the link */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-content a:hover {
+    color: #ffffff; /* White on hover for a noticeable effect */
+}
+
