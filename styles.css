@@ -1178,4 +1178,38 @@ footer {
 .project-content a:hover {
     color: #ffffff; /* White on hover for a noticeable effect */
 }
+/* Project Card with Light Background for Black Text */
+.project-card {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for better contrast */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Project title and description text in black */
+.project-content h3 {
+    color: #000000; /* Black color for the title */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-content p {
+    color: #333333; /* Dark gray for readability */
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Link styling for project links */
+.project-content a {
+    color: #ff414d; /* Bright red for links */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-content a:hover {
+    color: #000000; /* Change to black on hover for effect */
+}
 
